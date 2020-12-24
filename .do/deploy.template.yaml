@@ -1,16 +1,17 @@
-name: sample-nodejs
-region: ams
-workers:
-- environment_slug: node-js
-  envs:
-  - key: DATABASE_URL
-    scope: RUN_AND_BUILD_TIME
-    value: ${db.DATABASE_URL}
-  github:
-    branch: master
-    deploy_on_push: true
-    repo: smadhavapeddi/sample-nodejs
-  instance_count: 1
-  instance_size_slug: professional-xs
-  name: sample-nodejs3
-  run_command: yarn start
+spec:
+  name: sample-nodejs
+  region: ams
+  workers:
+  - environment_slug: node-js
+    envs:
+    - key: DATABASE_URL
+      scope: RUN_AND_BUILD_TIME
+      value: ${db.DATABASE_URL}
+    github:
+      branch: master
+      deploy_on_push: true
+      repo: smadhavapeddi/sample-nodejs
+    instance_count: 1
+    instance_size_slug: professional-xs
+    name: sample-nodejs3
+    run_command: yarn start
