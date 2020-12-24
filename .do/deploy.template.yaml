@@ -4,7 +4,6 @@ spec:
       git:
         branch: main
         repo_clone_url: https://github.com/smadhavapeddi/sample-nodejs
-        run_command: yarn start
     databases:
     - engine: PG
       name: example-db
