@@ -42,7 +42,7 @@ Here's an example code change you can make for this app:
 
 You can learn more about the App Platform and how to manage and update your application at https://www.digitalocean.com/docs/apps/.
 
-[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/smadhavapeddi/sample-nodejs/{master}})
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/smadhavapeddi/sample-nodejs/tree/master)
 
 
 ## Deleting the App #
